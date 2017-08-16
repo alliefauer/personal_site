@@ -1,0 +1,407 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.logo {
+   position: absolute;
+   z-index: 100;
+   top: 0;
+   margin: 10px;
+}
+
+.logo img {
+   width: 60px;
+   opacity: 0.9;
+   position: fixed;
+}
+
+.name {
+   text-decoration: none;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   font-style: italic;
+   letter-spacing: 0.05em;
+   position: fixed;
+   padding-top: 15px;
+   left: 75px;
+   display: inline-block;
+   z-index: 100;
+   color: black;
+}
+
+
+
+.bars {
+   height: 3px;
+   width: 45px;
+   top: 30px;
+   right: 30px;
+   position: fixed;
+   float: right;
+   z-index: 100;
+}
+
+.bars:nth-child(2) {
+   top:33px;
+   height: 17px;
+   opacity: 0;
+}
+
+.bars:nth-child(3) {
+   top: 40px;
+}
+
+.bars:nth-child(4) {
+   top:43px;
+   height: 17px;
+   opacity: 0;
+}
+
+.bars:nth-child(5) {
+   top: 50px;
+}
+
+.container-fluid{
+   padding: 0px !important;
+   position: fixed;
+   z-index: 500 !important;
+   width: 100%;
+   background-color: rgba(255,255,255,0.95);
+   height: 80px;
+   border-bottom: thick solid rgba(230,230,230,0.95);
+   display: none;
+}
+
+.nav {
+   margin-right: 10px;
+}
+
+.navbar {
+   border: 0 !important;
+   background-color: rgba(255,255,255,0);
+}
+
+.navLogo {
+   position: absolute;
+   z-index: 100;
+   top: 0;
+   margin: 10px;
+}
+
+.navLogo img {
+   width: 60px;
+   opacity: 0.9;
+   position: fixed;
+}
+
+.navName {
+   text-decoration: none;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   font-style: italic;
+   color: black;
+   letter-spacing: 0.05em;
+   position: fixed;
+   padding-top: 15px;
+   left: 75px;
+   display: inline-block;
+   z-index: 100;
+   color: black;
+}
+
+.navName a: hover {
+   text-decoration: none;
+}
+
+
+.nav li{
+   padding-top: 15px;
+   display: inline-block;
+   position: relative;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 0.08em;
+}
+
+
+.jumbotron {
+   padding: 0px !important;
+}
+
+.jumbotron img {
+   width: 100%;
+   display: block;
+   position: absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.projectInfoWrapper {
+   width: 100%;
+   position: absolute;
+   width: 33%;
+   bottom: 0%;
+   right: 0;
+   padding: 20px;
+}
+
+.projectInfo {
+   position: relative;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   text-align: right;
+   letter-spacing: 0.08em;
+   margin: 5px;
+   float: right;
+}
+
+#projectInfoLine {
+height: 2px;
+width: 75%;
+position: relative;
+float: right;
+}
+
+.viewProject {
+   position: relative;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   font-style: italic;
+   text-align: right;
+   letter-spacing: 0.08em;
+   float: right;
+   text-decoration: none;
+}
+
+.viewProject i {
+    margin-left: 3px;
+    top: 50%;
+    transform: translate(0%, 20%);
+}
+
+.about {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 100%;
+   background: #262626;
+   z-index: 200; 
+   padding: 50px 90px;
+}
+
+.about img {
+   width: 33%
+}
+
+.about .row {
+   padding: 100px;
+}
+
+.about img {
+   width: 100%;
+   border-radius: 50%;
+}
+
+.about h1 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   color: #d9d9d9;
+   font-size: 18px;
+   letter-spacing: 0.1em;
+   padding-bottom: 20px;
+}
+
+.about p {
+   font-family: 'Open Sans', sans-serif;
+   color: #d9d9d9;
+   font-size: 16px;
+   letter-spacing: 0.05em;
+   font-weight: 500; 
+   padding-bottom: 10px;
+}
+
+.projects {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 200%;
+   background: white;
+   z-index: 200; 
+   padding: 90px 90px;
+}
+
+.portfolio {
+   padding: 0% .4% 0% .4% !important;
+   margin-top: 4px !important;
+   margin-bottom: 0px !important;
+   margin-left: 0px !important;
+   margin-right: 0px !important;
+}
+
+
+.portfolioWrapper {
+   width: 100%;
+   height: relative;
+   color: grey;
+   z-index: 300;
+   overflow: hidden;
+   position: relative;
+   display: inline-block;
+}
+
+.overlay {
+    background:rgba(0,0,0,1);
+    width: 100%;
+    margin-bottom: -2.5px;
+    bottom: 100%;
+}
+
+  .portfolioWrapper:hover img  {
+    opacity: .25;
+}  
+
+.portfolioTitle {
+  color: white;
+  font-size: 14px;
+  font-weight: 700; 
+  letter-spacing: 0.05em;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition:opacity 0.5s;
+  opacity: 0;
+  width: 90%;
+}
+
+.portfolioWrapper:hover .portfolioTitle {
+    transition:opacity 1s;
+    opacity: 1;
+
+}
+
+.tag {
+  color: white;
+  font-size: 12px;
+  font-weight: 500; 
+  font-style: italic;
+  letter-spacing: 0.05em;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  text-align: center;
+  display: block;
+   top: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  padding-top: 3px;
+  
+}
+
+.tag::before, .tag::after {
+   content: " - ";
+}
+
+.col-md-6 .portfolioWrapper  img {
+   width: 100%;
+}
+
+.col-md-3 .portfolioWrapper  img {
+   width: 101.6%;
+}
+
+
+.projectBar {
+      background-color: grey;
+      height: 150px;
+      width: 100%;
+      top: 0;
+      position: fixed;
+}
+
+.projectImg {
+    position: relative;
+    padding: 0;
+    /* flex: 1;  */
+}
+
+.projectImg img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -75px;
+}
+
+/* .greyBlock {
+    background-color: #e6e6e6;
+    margin-top: 10px;
+    width: 45%;
+} */
+
+ .description {
+    position: relative;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    top: -75px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+} 
+
+.description h1 {
+    font-weight: 500;
+}
+
+.tableRow {
+    display:flex;
+}
+
+.test {
+padding: 50px;
+top: -75px;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 500;
+border: 1px;
+background-color: #e6e6e6;
+flex: 1;
+}
+
+.test h1 {
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.fullrow {
+    top: -75px;
+    width: 100%;
+}
+
+.fullrow img {
+    display: inline-block;
+}
+
+
+
+.footer {
+ width: 100%;
+   height: 30%;
+   position: absolute;
+   top: 300%;
+   background: white;
+   z-index: 200; 
+}
