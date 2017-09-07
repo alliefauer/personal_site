@@ -12,7 +12,7 @@ export default class Jumbotron extends Component {
                         <div className="projectInfo" style={{color: jumbotronPhotos[this.props.index].color}}>
                             <b>Featured Image</b>
                             <br />
-                                {jumbotronPhotos[this.props.index].project}
+                                <a href={jumbotronPhotos[this.props.index].url}>{jumbotronPhotos[this.props.index].project}</a>
                         </div>
                     </div>
                 </div>

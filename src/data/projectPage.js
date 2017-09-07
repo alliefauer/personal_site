@@ -1,7 +1,7 @@
 export const projectPage = {
     headplanters: {
-        title: "HEAD PLANTERS",
-        subtitle: "Turn your Head into a 3D Printed Planter",
+        title: "3D Printed Head Planters",
+        subtitle: "3D Printing, 3D Modeling & 3D Scanning",
         tags: ["3D printing", "3D scanning", "digital fabrication"],
         sections : [
             {
@@ -20,7 +20,7 @@ export const projectPage = {
             url: "https://www.solidsmack.com/cooltools/cool-tools-of-doom-n-stuff-week-26-15/"
         }],
         images: ["images/headplanterscover.jpg", ["images/planterallie.jpg", "images/planterjohn.jpg", "images/planterlaura.jpg"], "images/headplantermodel.jpg"],
-        colors: ["#80002a", "#ff4d88"]
+        colors: ["#80002a", "#330011"]
     },
         train: {
         title: "TRAIN LOOKOUT",

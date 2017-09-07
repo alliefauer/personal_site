@@ -342,11 +342,6 @@ float: right;
     top: -75px;
 }
 
-/* .greyBlock {
-    background-color: #e6e6e6;
-    margin-top: 10px;
-    width: 45%;
-} */
 
  .description {
     position: relative;
@@ -370,7 +365,7 @@ float: right;
     display:flex;
 }
 
-.test {
+.rightCol {
 padding: 50px;
 top: -75px;
 font-family: 'Raleway', sans-serif;
@@ -381,9 +376,17 @@ background-color: #e6e6e6;
 flex: 1;
 }
 
-.test h1 {
-    padding-bottom: 15px;
-    font-weight: 500;
+.rightCol h1 {
+    position: absolute;
+    bottom: 70px;
+    color: white;
+    font-size: 28px;
+}
+
+.rightCol h2 {
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
 }
 
 .fullrow {
