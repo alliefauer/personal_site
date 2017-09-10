@@ -141,32 +141,20 @@ html, body {
   transform: translate(-50%, -50%);
 }
 
-.projectInfoWrapper {
-   width: 100%;
-   position: absolute;
-   width: 33%;
-   bottom: 0%;
-   right: 0;
-   padding: 20px;
-}
-
 .projectInfo {
    position: relative;
    font-family: 'Open Sans', sans-serif;
    font-size: 14px;
    font-weight: 300;
-   text-align: right;
    letter-spacing: 0.08em;
-   margin: 5px;
-   float: right;
+   margin-right: 60px;
+   margin-left: 60px;
 }
 
-#projectInfoLine {
-height: 2px;
-width: 75%;
-position: relative;
-float: right;
+.projectInfo .col-md-9 p {
+    font-size: 20px;
 }
+
 
 .viewProject {
    position: relative;
@@ -396,6 +384,26 @@ flex: 1;
 
 .fullrow img {
     display: inline-block;
+}
+
+.sidebarSection {
+    padding-bottom: 15px;
+}
+
+.sidebarSection p {
+    color: grey;
+}
+
+.sectionImgWrapper {
+    padding: 40px 60px;
+}
+
+.sectionImg {
+    padding: 5px;
+}
+
+.sectionImg img {
+    width: 100%;
 }
 
 
