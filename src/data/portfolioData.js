@@ -56,7 +56,7 @@ export const portfolioData = [{
     name: 'lovell',
     title: 'LOVELL HEALTH HOUSE',
     tag: '3D Rendering',
-    url: '/pez'
+    url: '/lovell'
 },
 {
     name: 'train',
