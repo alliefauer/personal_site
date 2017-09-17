@@ -143,10 +143,10 @@ export const projectPage = {
         ],
         about: ["Made from plywood and fabric, this shelter is able to fold in an accordion-like fashion, to be completely flat. While in this collapsed position, the shelter can easily be carried by one person.", "To create this shelter, digital design and fabrication process were utilized. The shelter first 3d modeled in Rhino, and later pieces were CNC milled from tool paths generated using RhinoCAM. The ribs providing the structure of the shelter were CNC milled out of 1/4\" plywood, and the outside shell was CNC milled out of fabric using a knife attachment. The fabric was then hand stitched onto the wooden ribs to complete the structure.", "This project was a collaboration with Rachel Yalisove, Kymberly Day, and Nick Oster."],
         sections : [
-            ["images/iceskateall.jpg"]
+            [{image: "images/shelter1.jpg"}, {image: "images/shelter2.jpg"}]
         ],
         mainImage: "images/shelterwide.jpg",
-        colors: ["#527a7a", "grey"]
+        colors: ["#86a893", "#333333"]
     },
     magicwand: {
         title: "Magic Wand",
@@ -159,10 +159,11 @@ export const projectPage = {
         ],
         about: ["Modeled after the Kymera Wand, I designed, programmed and built a fully functional Magic Wand TV Remote. In case you are not familiar with the Kymera Wand, a Magic Wand TV Remote functions without pressing any buttons. By waving the wand in different ways, different commands are sent to your television. Using Arduino, I have programmed my Magic Wand TV Remote to turn the TV and cable on and off, control HDMI functions, and to turn volume and channels up and down.", "This project won First Prize in Instructable.com's Enchanted Object Contest sponsered by Spark IO."],
         sections : [
-            ["images/iceskateall.jpg"]
+            [{image: "images/wand1.jpg"}, {image: "images/wand2.jpg"}],
+            [{video: "https://www.youtube.com/embed/MsRoB-76nbE"}],
         ],
         mainImage: "images/magicwandcover.jpg",
-        colors: ["#804d00", "grey"]
+        colors: ["#ad7516", "#cccccc", "#ad7516"]
     },  
     tea: {
         title: "Just Tea",
@@ -172,10 +173,10 @@ export const projectPage = {
         ],
         about: ["This project was a redesign of Wegmans' brand Just Tea. The goal of the new packaging was to create an identity for the brand that both stood out on the shelves, and was more exciting for customers to interact with.", "The existing branding for Just Tea used a very generic color palette and unclear typography making the packaging generally unfriendly and not memorable. To address these issues, I gave the brand a new color palette, using black along with a secondary color to differentiate each flavor. A subtle gradation was used on the bottom portion on the box that becomes evident as the top is being removed. I also created a simplified logo using the intersection between the two 't's' in the brand name, Just Tea."],
         sections : [
-            ["images/iceskateall.jpg"]
+            [{image: "images/tea1.jpg"}, {image: "images/tea2.jpg"}]
         ],
         mainImage: "images/teawide.jpg",
-        colors: ["#669900", "grey"]
+        colors: ["#669900", "#cccccc"]
     },
     pez: {
         title: "Personalized Pez Dispensers",
@@ -188,10 +189,12 @@ export const projectPage = {
         ],
         about: ["I utilized 3D scanning and 3D printing technologies to create custom Pez Dispensers of friends and family members. "],
         sections : [
-            ["images/iceskateall.jpg"]
+            [{image: "images/pez1.jpg"}, {image: "images/pez2.jpg"}],
+            [{image: "images/pezdania.jpg"}, {image: "images/pezallie.jpg"}, {image: "images/pezwaleed.jpg"}],
+            [{image: "images/pez3.jpg"}, {image: "images/pez4.jpg"}],
         ],
         mainImage: "images/pezwide.jpg",
-        colors: ["#ff80aa", "grey"]
+        colors: ["#b17fd8", "#333333", "#a058d8"]
     },
     necklaces: {
         title: "Laser Cut Necklaces",
@@ -204,10 +207,11 @@ export const projectPage = {
         ],
         about: ["During my senior year of college, I worked one day a week at an Interior Design Studio. While there, my primary job was working as the 'Material Librarian', organizing the Studio's material library and throwing out any outdated or duplicate samples. Despite getting rid of many samples, I held onto many that felt particularly drawn to. I started collecting old laminate samples, quickly filling the shelves in my tiny dorm room. As my collection grew, I knew I had to find something to do with the samples. Between my need to find a use for my collection and a new found love for Digital Fabrication, these colorful geometric necklaces were born!"],
         sections : [
-            ["images/iceskateall.jpg"]
+            [{image: "images/necklace1.jpg"}, {image: "images/necklace2.jpg"}],
+            [{image: "images/necklace3.jpg"}, {image: "images/necklace4.jpg"}],
         ],
         mainImage: "images/necklacewide.jpg",
-        colors: ["#0f1f3d", "grey"]
+        colors: ["#0f1f3d", "#999999", "#2e5cb8"]
     }, 
     lovell: {
         title: "Lovell Health House",
@@ -218,9 +222,10 @@ export const projectPage = {
         ],
         about: ["This project was a digital reconstruction of Richard Neutra's Lovell Health House located in Los Angeles, California. Using the existing floor plans, the modeling of the house was completed using 3D Studio Max and Mental Ray Rendering."],
         sections : [
-            ["images/iceskateall.jpg"]
+            [{image: "images/lovell1.jpg"}, {image: "images/lovell2.jpg"}],
+            [{image: "images/lovell3.jpg"}, {image: "images/lovell4.jpg"}]
         ],
         mainImage: "images/lovellwide.jpg",
-        colors: ["#336699", "grey"]
+        colors: ["#5b7752", "#333333"]
     },
 }

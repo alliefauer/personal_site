@@ -6,13 +6,14 @@ export default class About extends Component {
     render() {
         return (
             <div className="about">
-                <div className="row">
+                <div className="row content">
                     <div className="col-md-4">
                         <img alt="allie" src="images/allie.jpg" />
                     </div>
                     <div className="col-md-7 col-md-offset-1">
                         <h1>Hi, I'm Allie!</h1>
-                        <p>I'm a designer and self-taught programmer currently living in Syracuse, NY. While I enjoy utilizing technology to create both physical objects and digital products, I'm currently focused on bringing projects to life using code. In April I will be relocating to NYC to attend the <a href="https://www.gracehopper.com/">Grace Hopper Program</a> to further develop my programming skills.</p><p>You might know my work from the DIY tutorials I write for <a href="http://www.instructables.com/member/allie.fauer/">Instructables.com</a>, or from the many awesome places on the web where I've been featured including:</p>
+                        <div className="line"/>
+                        <p>I am a Software Engineer with a love for Design currently residing in Brooklyn, NY. I enjoy utilizing technology to create both digital products and physical objects that are fun and interactive! You might know my work from the DIY tutorials I write for <a href="http://www.instructables.com/member/allie.fauer/">Instructables.com</a>, or from the many awesome places on the web where I've been featured including:</p>
                         <div className="row">
                             <div className="col-md-6">
                                 <p><a href="http://www.popsci.com/real-life-remembrall">Popular Science</a>
