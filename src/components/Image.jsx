@@ -10,18 +10,6 @@ export default class Image extends Component {
         }
 
     }
-//     componentDidMount() {
-//         this.jquery()
-//     }
-
-//    jquery() {
-//         $('.portfolioWrapper').hover(function () {
-//             $(this).children('.portfolioTitle').fadeIn(500);
-//         }, function () {
-//             $(this).children('.portfolioTitle').css('display', 'none');
-//         });
-//   }
-    
     render() {
 
         

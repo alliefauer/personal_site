@@ -163,7 +163,7 @@ export const projectPage = {
             [{video: "https://www.youtube.com/embed/MsRoB-76nbE"}],
         ],
         mainImage: "images/magicwandcover.jpg",
-        colors: ["#ad7516", "#cccccc", "#ad7516"]
+        colors: ["#ad7516", "#333333", "#ad7516"]
     },  
     tea: {
         title: "Just Tea",

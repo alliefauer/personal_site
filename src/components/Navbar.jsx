@@ -58,7 +58,7 @@ export default class NavbarMain extends Component {
 
       if (scroll_pos < 10 && !clicked) {
         $('.navLogo img, .navName').fadeOut('fast');
-        $('.projectInfoWrapper').fadeIn('slow');
+        $('.jumbotronInfoWrapper').fadeIn('slow');
       }
 
       if (scroll_pos < 8 && !clicked) {
@@ -67,9 +67,9 @@ export default class NavbarMain extends Component {
       }
 
       if (scroll_pos > 150) {
-        $('.projectInfoWrapper').fadeOut('slow');
+        $('.jumbotronInfoWrapper').fadeOut('slow');
       } else {
-        $('.projectInfoWrapper').fadeIn('slow');
+        $('.jumbotronInfoWrapper').fadeIn('slow');
       }
     });
   }
