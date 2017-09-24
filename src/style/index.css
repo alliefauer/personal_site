@@ -63,7 +63,7 @@ html, body {
    top: 50px;
 }
 
-.container-fluid{
+.web-container-fluid{
    padding: 0px !important;
    position: fixed;
    z-index: 500 !important;
@@ -117,7 +117,7 @@ html, body {
 }
 
 
-.nav li{
+.nav li {
    padding-top: 15px;
    display: inline-block;
    position: relative;
@@ -126,6 +126,7 @@ html, body {
    font-weight: 700;
    letter-spacing: 0.08em;
 }
+
 
 
 .jumbotron {
@@ -202,7 +203,7 @@ html, body {
 
 .about {
    width: 100%;
-   min-height: 100%;
+   min-height: 700px;
    position: absolute;
    top: 100%;
    background: #262626;
@@ -477,4 +478,8 @@ flex: 1;
    top: 300%;
    background: white;
    z-index: 200; 
+}
+
+.mobile {
+    display: none;
 }

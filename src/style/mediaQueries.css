@@ -1,0 +1,119 @@
+/* Tablet and Mobile */
+@media only screen and (max-width:755px) {
+
+.logo {
+    margin: 5px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.name {
+    font-size: 18px;
+    padding-top: 12px;
+    left: 55px;
+}
+
+.bars {
+    top: 20px;
+    right: 15px;
+}
+
+.bars:nth-child(2) {
+    top: 23px;
+}
+
+.bars:nth-child(3) {
+    top: 30px;
+}
+
+.bars:nth-child(4) {
+    top: 33px;
+}
+
+.bars:nth-child(5) {
+    top: 40px;
+}
+
+.mobile-container-fluid {
+    padding: 0px !important;
+    position: fixed;
+    z-index: 500 !important;
+    width: 100%;
+    background-color: rgba(255,255,255,0.95);
+    height: 65px;
+    border-bottom: thick solid rgba(230,230,230,0.95);
+    display: block;
+}
+
+.navLogo {
+    margin: 5px;
+}
+
+.navLogo img {
+    width: 50px; 
+}
+
+.navName {
+    font-size: 18px;
+    padding-top: 12px;
+    left: 55px;
+}
+
+.jumbotron img {
+    width: 300%;
+    top: 50%;
+    left: 50%;
+}
+
+
+.nav li {
+    top: 57px;
+    display: none;
+    text-align: right;
+    background-color: rgba(240,240,240,.95);
+    margin-right: -10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(30,30,30,.1)
+
+}
+
+.nav li:last-child {
+    border-bottom: 4px solid rgba(185, 185, 185, .95);
+}
+
+.web {
+    display: none;
+}
+
+.mobile {
+    display: block;
+    margin-top: -30px;
+}
+
+
+}
+
+/* One Column */
+
+@media screen and (min-width:300px) {
+    
+}
+
+@media screen and (max-width:400px) {
+}
+
+@media screen and (min-width:400px) {
+}
+
+/* Two Column */
+
+@media screen and (min-width:700px) {
+}
+
+/* Three Column */
+
+@media screen and (min-width:1000px) {
+}

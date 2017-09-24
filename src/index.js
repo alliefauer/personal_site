@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style/index.css';
+import './style/mediaQueries.css';
 import App from './App';
 import Project from './components/Project'
 import NavbarMain from './components/Project'
