@@ -40,12 +40,12 @@ export default class WebNavbar extends Component {
 
         $(document).scroll(function () {
             var scroll_pos = $(this).scrollTop();
+            if ($('.navName').css('font-size') !== '18px') {
+                $('.web, .jumbotron img').css('top', 50 + scroll_pos / 15 + '%');
 
-            $('.web .jumbotron img').css('top', 50 + scroll_pos / 15 + '%');
-
-            if (scroll_pos < 0) {
-                $('.web .jumbotron img').css('width', 100 + scroll_pos / 15 + '%');
-            }
+                if (scroll_pos < 0) {
+                    $('.web, .jumbotron img').css('width', 100 + scroll_pos / 15 + '%');
+                }
 
             if (scroll_pos > 8) {
                 $('.web-container-fluid').slideDown('slow');
@@ -72,7 +72,9 @@ export default class WebNavbar extends Component {
             } else {
                 $('.projectInfoWrapper').fadeIn('slow');
             }
+        } 
         });
+
     }
 
     render() {

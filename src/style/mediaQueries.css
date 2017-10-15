@@ -37,6 +37,7 @@
 }
 
 .mobile-container-fluid {
+    top: 0px;
     padding: 0px !important;
     position: fixed;
     z-index: 500 !important;
@@ -46,6 +47,7 @@
     border-bottom: thick solid rgba(230,230,230,0.95);
     display: block;
 }
+
 
 .navLogo {
     margin: 5px;
@@ -62,9 +64,15 @@
 }
 
 .jumbotron img {
-    width: 300%;
-    top: 50%;
-    left: 50%;
+    width: 125%;
+    position: relative;
+    top: 10px;
+    transform: translate(-50%, 0%);
+}
+
+.jumbotronInfoWrapper {
+     top: 230px;
+     width: 75%;
 }
 
 
@@ -90,10 +98,76 @@
 
 .mobile {
     display: block;
-    margin-top: -30px;
+    /* margin-top: -30px; */
 }
 
+.about {
+    position: relative;
+    top: -20px;
+    padding: 40px 30px;
+}
 
+.about .content {
+    top: 0;
+    padding: 0px;
+}
+
+.about h1 {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.line {
+    margin: 20px 0px;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.projects {
+    position: relative;
+    padding: 10px;
+}
+
+.projectImg img {
+    top: 30px;
+}
+
+.tableRow {
+    display: block;
+}
+
+.rightCol {
+    top: 0px;
+    padding: 100px 50px;
+}
+
+.rightCol h1 {
+    font-size: 24px;
+}
+
+.rightCol h2 {
+    font-size: 16px;
+}
+
+.projectInfo {
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.projectInfo .col-md-9 p {
+    font-size: 18px;
+}
+
+.sectionImgWrapper {
+    padding: 20px;
+}
+
+.iframeWrapper {
+    width: 100%;
+}
 }
 
 /* One Column */

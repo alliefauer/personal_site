@@ -1,4 +1,5 @@
-export const jumbotronPhotos = [{
+export const jumbotronPhotos = [
+  {
       img: "/images/pezcover.jpg",
       color: 'white',
       color2: '#333333',
@@ -53,5 +54,19 @@ export const jumbotronPhotos = [{
       color2: '#b3b3b3',
       project: 'Ice Skate Ornament',
       url: '/iceskate'
+    },
+    {
+      img: "/images/burritocompasscover.jpg",
+      color: 'white',
+      color2: '#4d4d4d',
+      project: 'Burrito Compass',
+      url: '/burritocompass'
+    },
+    {
+      img: "/images/tamadocover.jpg",
+      color: 'white',
+      color2: '#b3b3b3',
+      project: 'Tama-Do',
+      url: '/tamado'
     }
 ]

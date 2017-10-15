@@ -203,22 +203,19 @@ html, body {
 
 .about {
    width: 100%;
-   min-height: 700px;
    position: absolute;
    top: 100%;
    background: #262626;
    z-index: 200; 
    padding: 50px 90px;
+   min-height: 1000px;
 }
 
 
 .about .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     width: 100%;
-    padding: 100px;
+    padding: 75px; 
 }
 
 .about img {

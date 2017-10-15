@@ -13,10 +13,10 @@ export default class MobileNavbar extends Component {
         $('.bars').click(function() {
             if (!clicked) {
                 clicked = true
-                $('.nav li').slideDown('slow')
+                $('.mobile .nav li').slideDown('slow')
             } else {
                 clicked = false
-                $('.nav li').slideUp('slow')
+                $('.mobile .nav li').slideUp('slow')
             }
         })
     }

@@ -87,5 +87,18 @@ export const portfolioData = [{
     title: 'JUST TEA',
     tag: 'Packaging Design',
     url: '/tea'
-}];
+},
+{
+    name: 'burritocompass',
+    title: 'BURRITO COMPASS',
+    tag: 'Design & Development',
+    url: '/burritocompass'
+},
+{
+    name: 'tamado',
+    title: 'TAMA-DO',
+    tag: 'Design & Development',
+    url: '/tamado'
+}
+];
 
