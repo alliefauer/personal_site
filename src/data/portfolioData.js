@@ -2,103 +2,120 @@ export const portfolioData = [{
     name: 'headplanters',
     title: 'HEAD PLANTERS',
     tag: '3D Printing',
-    url: '/headplanters'
+    url: '/headplanters',
+    tags: ['3d Modeling', 'Digital Fabrication']
 },
 {
     name: 'iceskate',
     title: 'ICE SKATE ORNAMENT',
     tag: '3D Printing',
-    url: '/iceskate'
+    url: '/iceskate',
+    tags: ['3d Modeling', 'Digital Fabrication']
 },
 {
     name: 'leash',
     title: 'LED DOG LEASH',
     tag: 'Electronics',
-    url: '/leash'
+    url: '/leash',
+    tags: []
 },
 {
     name: 'magicwand',
     title: 'MAGIC WAND TV REMOTE',
     tag: 'Arduino',
-    url: '/magicwand'
+    url: '/magicwand',
+    tags: ['3d Modeling', 'Digital Fabrication', 'Programming']
 },
 {
     name: 'necklace',
     title: 'LASER CUT NECKLACES',
     tag: 'Digital Fabrication',
-    url: '/necklaces'
+    url: '/necklaces',
+    tags: ['Digital Fabrication']
 },
 {
     name: 'pez',
     title: 'PERSONALIZED PEZ DISPENSERS',
     tag: '3D Printing',
-    url: '/pez'
+    url: '/pez',
+    tags: ['3d Modeling', 'Digital Fabrication']
 },
 {
     name: 'pictureframe',
     title: 'LOCATION SENSING PICTURE FRAME',
     tag: 'Arduino',
-    url: '/pictureframe'
+    url: '/pictureframe',
+    tags: ['Digital Fabrication', 'Programming']
 },
 {
     name: 'remembrall',
     title: 'INTERNET CONNECTED REMEMBRALL',
     tag: 'Arduino',
-    url: '/remembrall'
+    url: '/remembrall',
+    tags: ['Programming']
 },
 {
     name: 'taskly',
     title: 'TASKLY',
     tag: 'UX + UI Design',
-    url: '/taskly'
+    url: '/taskly',
+    tags: ['Graphic Design']
 },
 {
     name: 'lovell',
     title: 'LOVELL HEALTH HOUSE',
     tag: '3D Rendering',
-    url: '/lovell'
+    url: '/lovell',
+    tags: ['3d Modeling']
 },
 {
     name: 'train',
     title: 'TRAIN OVERLOOK',
     tag: '3D Rendering',
-    url: '/train'
+    url: '/train',
+    tags: ['3d Modeling']
 },
 {
     name: 'shelter',
     title: 'FOLDING SHELTER',
     tag: 'Digital Fabrication',
-    url: '/shelter'
+    url: '/shelter',
+    tags: ['Digital Fabrication']
 },
 {
     name: 'coco',
     title: 'COCO FANTASY',
     tag: 'Packaging Design',
-    url: '/coco'
+    url: '/coco',
+    tags: ['Graphic Design']
 },
 {
     name: 'sweet',
     title: 'SWEET INFOGRAPHIC BOOK',
     tag: 'Graphic Design',
-    url: '/sweet'
+    url: '/sweet',
+    tags: ['Graphic Design']
 },
 {
     name: 'tea',
     title: 'JUST TEA',
     tag: 'Packaging Design',
-    url: '/tea'
+    url: '/tea',
+    tags: ['Graphic Design']
 },
 {
     name: 'burritocompass',
     title: 'BURRITO COMPASS',
     tag: 'Design & Development',
-    url: '/burritocompass'
+    url: '/burritocompass',
+    tags: ['Graphic Design', 'Programming']
 },
 {
     name: 'tamado',
     title: 'TAMA-DO',
     tag: 'Design & Development',
-    url: '/tamado'
+    url: '/tamado',
+    tags: ['Graphic Design', 'Programming']
 }
 ];
 

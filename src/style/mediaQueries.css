@@ -66,7 +66,7 @@
 .jumbotron img {
     width: 125%;
     position: relative;
-    top: 10px;
+    top: 10px !important;
     transform: translate(-50%, 0%);
 }
 
@@ -128,6 +128,10 @@
 .projects {
     position: relative;
     padding: 10px;
+}
+
+.projects  {
+    margin-top: 30px;
 }
 
 .projectImg img {

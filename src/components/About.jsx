@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-
 export default class About extends Component {
 
     render() {
@@ -13,7 +12,7 @@ export default class About extends Component {
                     <div className="col-md-7 col-md-offset-1">
                         <h1>Hello, I'm Allie!</h1>
                         <div className="line"/>
-                        <p>I am a Software Engineer with a love for Design currently residing in Brooklyn, NY. I enjoy utilizing technology to create digital products and physical objects that are fun and interactive! You might know my work from the DIY tutorials I write for <a href="http://www.instructables.com/member/allie.fauer/">Instructables.com</a>, or from the many awesome places on the web where I've been featured including:</p>
+                        <p>I am a Full Stack Software Engineer with a love of Design and UX currently residing in Brooklyn, NY. I enjoy utilizing technology to create digital products and physical objects that are fun and interactive! You might know my work from the DIY tutorials I write for <a href="http://www.instructables.com/member/allie.fauer/">Instructables.com</a>, or from the many awesome places on the web where I've been featured including:</p>
                         <div className="row">
                             <div className="col-md-6">
                                 <p><a href="http://www.popsci.com/real-life-remembrall">Popular Science</a>
@@ -30,7 +29,6 @@ export default class About extends Component {
                         </div>
                     </div>
                 </div>
-
             </div>
         )
     }

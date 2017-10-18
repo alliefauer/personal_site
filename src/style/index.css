@@ -201,14 +201,16 @@ html, body {
     transform: translate(0%, 20%);
 }
 
+.mainContent {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    z-index: 200; 
+}
+
 .about {
-   width: 100%;
-   position: absolute;
-   top: 100%;
    background: #262626;
-   z-index: 200; 
    padding: 50px 90px;
-   min-height: 1000px;
 }
 
 
@@ -216,6 +218,8 @@ html, body {
     position: relative;
     width: 100%;
     padding: 75px; 
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .about img {
@@ -226,7 +230,7 @@ html, body {
 .about h1 {
    font-family: 'Raleway', sans-serif;
    color: #fff;
-   font-size: 30px;
+   font-size: 40px;
    letter-spacing: 0.1em;
 }
 
@@ -254,12 +258,66 @@ html, body {
 
 .projects {
    width: 100%;
-   height: 100%;
-   position: absolute;
-   top: 200%;
-   background: white;
+   margin-top: 85px;
    z-index: 200; 
-   padding: 90px 90px;
+   padding: 0px 90px;
+}
+
+.projects button {
+    position: relative;
+    top: -40px;
+}
+
+.projects p {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    color: #424242;
+}
+
+.active {
+    background-color: #919185;
+    border: 2px solid #919185;
+    border-radius: 16px;
+    margin: 5px;
+    padding: 0px 15px;
+    height: 32px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+    outline: 0;
+}
+
+.inactive {
+    background-color: white;
+    border: 2px solid #bebebc;
+    border-radius: 16px;
+    margin: 5px;
+    padding: 0px 15px;
+    height: 32px;
+    color: #bebebc;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+    outline: 0;
+}
+
+.active:hover {
+    background-color: #747469;
+    border: 2px solid #747469;
+    
+}
+
+.inactive:hover {
+    border: 2px solid #acaca9;
+    color: #acaca9;
 }
 
 .portfolio {

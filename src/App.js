@@ -29,8 +29,10 @@ export default class App extends Component {
       <div>
         <NavbarMain color={this.state.logoColor} />
         <Jumbotron index={this.state.index} />
-        <About />
-        <Projects />
+        <div className ="mainContent">
+          <About />
+          <Projects />
+        </div>
       </div>
     );
   }

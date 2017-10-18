@@ -14,7 +14,7 @@ export const projectPage = {
             [{image: "images/plantergif1.gif"}, {image: "images/planterlaura.jpg"}, {image: "images/plantergif3.gif"}]
         ],
         mainImage: "images/headplanterscover.jpg",
-        colors: ["#80002a", "#999999", "#cc0044"]
+        colors: ["#5a0e12", "#999999", "#cc0044"]
     },
     pictureframe: {
         title: "Location Sensing Picture Frame",
@@ -30,7 +30,7 @@ export const projectPage = {
             [{video: "https://www.youtube.com/embed/iOFXJysHMkc"}]
         ],
         mainImage: "images/pictureframecover.jpg",
-        colors: ["#009933", "#262626", "#00b33c"]
+        colors: ["#621117", "#999999", "#df505a"]
     },
     iceskate: {
         title: "Ice Skate Ornament",
@@ -46,7 +46,7 @@ export const projectPage = {
             [{image: "images/iceskateall.jpg"}]
         ],
         mainImage: "images/iceskatecover.jpg",
-        colors: ["#0d1a00", "grey", "#4d9900"]
+        colors: ["#25341f", "grey", "#4d9900"]
     },
     taskly: {
         title: "Taskly",
@@ -89,7 +89,7 @@ export const projectPage = {
             ["images/iceskateall.jpg"]
         ],
         mainImage: "images/cocowide.jpg",
-        colors: ["#99003d", "#999999"]
+        colors: ["#003d69", "#999999"]
     },
     sweet: {
         title: "Sweet Infographic Book",
@@ -118,7 +118,7 @@ export const projectPage = {
             [{video: "                                             https://player.vimeo.com/video/72018629"}]
         ],
         mainImage: "images/trainwide.jpg",
-        colors: ["#29293d", "grey"]
+        colors: ["#4a4853", "#999999"]
     },  
     leash: {
         title: "LED Dog Leash",
@@ -132,7 +132,7 @@ export const projectPage = {
             [{image: "images/leash1.jpg"}, {image: "images/leash2.jpg"}]
         ],
         mainImage: "images/leashcover.jpg",
-        colors: ["#00394d", "#999999", "#0086b3"]
+        colors: ["#1e4451", "#999999", "#0086b3"]
     }, 
     shelter: {
         title: "Folding Shelter",
@@ -146,7 +146,7 @@ export const projectPage = {
             [{image: "images/shelter1.jpg"}, {image: "images/shelter2.jpg"}]
         ],
         mainImage: "images/shelterwide.jpg",
-        colors: ["#86a893", "#333333"]
+        colors: ["#8f9ea1", "#333333"]
     },
     magicwand: {
         title: "Magic Wand",
@@ -163,7 +163,7 @@ export const projectPage = {
             [{video: "https://www.youtube.com/embed/MsRoB-76nbE"}],
         ],
         mainImage: "images/magicwandcover.jpg",
-        colors: ["#ad7516", "#333333", "#ad7516"]
+        colors: ["#b27839", "#333333", "#ad7516"]
     },  
     tea: {
         title: "Just Tea",
@@ -176,7 +176,7 @@ export const projectPage = {
             [{image: "images/tea1.jpg"}, {image: "images/tea2.jpg"}]
         ],
         mainImage: "images/teawide.jpg",
-        colors: ["#669900", "#cccccc"]
+        colors: ["#86a81e", "#333333"]
     },
     pez: {
         title: "Personalized Pez Dispensers",
@@ -194,7 +194,7 @@ export const projectPage = {
             [{image: "images/pez3.jpg"}, {image: "images/pez4.jpg"}],
         ],
         mainImage: "images/pezwide.jpg",
-        colors: ["#b17fd8", "#333333", "#a058d8"]
+        colors: ["#a170cb", "#333333", "#a058d8"]
     },
     necklaces: {
         title: "Laser Cut Necklaces",
@@ -226,6 +226,38 @@ export const projectPage = {
             [{image: "images/lovell3.jpg"}, {image: "images/lovell4.jpg"}]
         ],
         mainImage: "images/lovellwide.jpg",
-        colors: ["#5b7752", "#333333"]
+        colors: ["#9ea287", "#333333"]
+    },
+    burritocompass: {
+        title: "Burrito Compass",
+        subtitle: "Design & Development",
+        sidebar: [
+            ["Software", ["Adobe Creative Suite", "Expo"]],
+            ["Technologies", ["React Native"]],
+            ["Resources", ["Yelp API", "Geolocation"]],
+            ["Code", [["Github" , "https://github.com/alliefauer/Burrito-Compass"]]]
+        ],
+        about: ["Burrito Compass is a mobile wayfinding application that helps users navigate to the closest place to purchase a burrito. Modeled after a traditional compass, this application points you in the direction of the nearest burrito establishment, and tells you how far away you currently are from it. "],
+        sections : [
+            [{video: "https://www.youtube.com/embed/osd8SudyWxc"}]
+        ],
+        mainImage: "images/burritocompasswide.jpg",
+        colors: ["#645d59", "#cccccc", "#645d59"]
+    },
+    tamado: {
+        title: "Tama-Do",
+        subtitle: "Design & Development",
+        sidebar: [
+            ["Software", ["Adobe Creative Suite", "Expo"]],
+            ["Technologies", ["React Native", "Redux", "Firebase"]],
+            ["Resources", ["Google Places API", "React-Native-Maps", "React-Native-Animated-Sprite"]],
+            ["Code", [["Github" , "https://github.com/Tama-Do/tama-do"]]]
+        ],
+        about: ["Tama-Do is an mobile iOS app that rewards users for their productivity with the help of virtual pet monsters placed at locations in the real world.", "Users receive three virtual pet monsters and place them on a Google Map at locations they need to visit on a regular basis, like the grocery store or the gym. Users can only interact with their pets when they are at the same location as their pet.", "Users also have a to-do list. When they complete a task, they receive a treat, which they can feed to their monster. The monster grows a little bit each time it eats a treat.", "This project was developed in collaboration with Stella Chung, Jenna Fellows and Katie Surrence."],
+        sections : [
+            [{video: "https://www.youtube.com/embed/fH4YrnoB3-M"}]
+        ],
+        mainImage: "images/tamadowide.jpg",
+        colors: ["#d39990", "#333333", "#d39990"]
     },
 }
