@@ -28,6 +28,11 @@ export default class WebNavbar extends Component {
         }
     }
 
+    homeScroll() {
+        let homeDiv = document.getElementsByClassName("about")
+        document.scrollTop = homeDiv.scrollHeight
+    }
+
     jquery() {
         let clicked = false
         $('.bars').click(function () {
@@ -47,33 +52,39 @@ export default class WebNavbar extends Component {
                     $('.web, .jumbotron img').css('width', 100 + scroll_pos / 15 + '%');
                 }
 
-            if (scroll_pos > 8) {
-                $('.web-container-fluid').slideDown('slow');
-                $('.web .logo, .web .bars, .web .name').fadeOut();
+                if (scroll_pos > 8) {
+                    $('.web-container-fluid').slideDown('slow');
+                    $('.web .logo, .web .bars, .web .name').fadeOut();
+                }
+
+                if (scroll_pos > 10) {
+                    $('.web .navLogo img, .web .navName').fadeIn('slow');
+                    clicked = false
+                }
+
+                if (scroll_pos < 10 && !clicked) {
+                    $('.web .navLogo img, .web .navName').fadeOut('fast');
+                    $('.projectInfoWrapper').fadeIn('slow');
+                }
+
+                if (scroll_pos < 8 && !clicked) {
+                    $('.web-container-fluid').slideUp('slow');
+                    $('.web .logo, .web .bars, .web .name').fadeIn();
+                }
+
+                if (scroll_pos > 150) {
+                    $('.projectInfoWrapper').fadeOut('slow');
+                } else {
+                    $('.projectInfoWrapper').fadeIn('slow');
+                }
+            //     $("#about").click(function () {
+            //         let aboutDiv = (".about").scrollTop()
+
+            // });
             }
 
-            if (scroll_pos > 10) {
-                $('.web .navLogo img, .web .navName').fadeIn('slow');
-                clicked = false
-            }
-
-            if (scroll_pos < 10 && !clicked) {
-                $('.web .navLogo img, .web .navName').fadeOut('fast');
-                $('.projectInfoWrapper').fadeIn('slow');
-            }
-
-            if (scroll_pos < 8 && !clicked) {
-                $('.web-container-fluid').slideUp('slow');
-                $('.web .logo, .web .bars, .web .name').fadeIn();
-            }
-
-            if (scroll_pos > 150) {
-                $('.projectInfoWrapper').fadeOut('slow');
-            } else {
-                $('.projectInfoWrapper').fadeIn('slow');
-            }
-        } 
         });
+
 
     }
 
@@ -102,10 +113,9 @@ export default class WebNavbar extends Component {
                                 </a>
                             </div>
                             <Nav className="nav navbar-nav navbar-right" >
-                                <NavItem eventKey={1} href="/">HOME</NavItem>
-                                <NavItem eventKey={2} href=".mainContent">ABOUT</NavItem>
-                                <NavItem eventKey={3} href="/">CONTACT</NavItem>
-                                <NavItem eventKey={4} href="/">BLOG</NavItem>
+                                <NavItem id="home" eventKey={1} onClick={this.homeScroll} >HOME</NavItem>
+                                <NavItem id="about" eventKey={2}>ABOUT</NavItem>
+                                <NavItem id="projects" eventKey={3}>PROJECTS</NavItem>
                             </Nav>
                         </div>
                     </Nav>

@@ -43,8 +43,7 @@ export default class MobileNavbar extends Component {
                                 <Nav className="nav navbar-nav navbar-right" >
                                     <NavItem eventKey={1} href="/">HOME</NavItem>
                                     <NavItem eventKey={2} href="/">ABOUT</NavItem>
-                                    <NavItem eventKey={3} href="/">CONTACT</NavItem>
-                                    <NavItem eventKey={4} href="/">BLOG</NavItem>
+                                    <NavItem eventKey={3} href="/">PROJECTS</NavItem>
                                 </Nav>
                             </div>
                         </Nav>
