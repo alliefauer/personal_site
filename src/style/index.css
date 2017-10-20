@@ -206,6 +206,7 @@ html, body {
     position: absolute;
     top: 100%;
     z-index: 200; 
+    background-color: white;
 }
 
 .about {
@@ -218,8 +219,8 @@ html, body {
     position: relative;
     width: 100%;
     padding: 75px; 
-    margin-top: 90px;
-    margin-bottom: 90px;
+    /* margin-top: 90px;
+    margin-bottom: 90px; */
 }
 
 .about img {
@@ -261,6 +262,7 @@ html, body {
    margin-top: 85px;
    z-index: 200; 
    padding: 0px 90px;
+   background: white;
 }
 
 .projects button {

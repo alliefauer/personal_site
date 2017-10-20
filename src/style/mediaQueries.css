@@ -101,6 +101,10 @@
     /* margin-top: -30px; */
 }
 
+.mainContent {
+    position: relative !important;
+}
+
 .about {
     position: relative;
     top: -20px;
@@ -189,6 +193,79 @@
 /* Two Column */
 
 @media screen and (min-width:700px) {
+    .logo {
+        margin: 5px;
+    }
+    
+    .logo img {
+        width: 50px;
+    }
+    
+    .name {
+        font-size: 18px;
+        padding-top: 12px;
+        left: 55px;
+    }
+    
+    .bars {
+        top: 20px;
+        right: 15px;
+    }
+    
+    .bars:nth-child(2) {
+        top: 23px;
+    }
+    
+    .bars:nth-child(3) {
+        top: 30px;
+    }
+    
+    .bars:nth-child(4) {
+        top: 33px;
+    }
+    
+    .bars:nth-child(5) {
+        top: 40px;
+    }
+    
+    .mobile-container-fluid {
+        top: 0px;
+        padding: 0px !important;
+        position: fixed;
+        z-index: 500 !important;
+        width: 100%;
+        background-color: rgba(255,255,255,0.95);
+        height: 65px;
+        border-bottom: thick solid rgba(230,230,230,0.95);
+        display: block;
+    }
+    
+    
+    .navLogo {
+        margin: 5px;
+    }
+    
+    .navLogo img {
+        width: 50px; 
+    }
+    
+    .navName {
+        font-size: 18px;
+        padding-top: 12px;
+        left: 55px;
+    }
+    
+    .jumbotron img {
+        width: 125%;
+        position: relative;
+        top: -70px;
+        transform: translate(-50%, 0%);
+    }
+    
+    .jumbotronInfoWrapper {
+         top: 230px;
+         width: 75%;
+    }
 }
 
 /* Three Column */
