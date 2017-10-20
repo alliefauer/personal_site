@@ -12,15 +12,11 @@ module.exports = function(grunt) {
               jQuery: true
             }
           }
-        },
-        watch: {
-          files: ['<%= jshint.files %>'],
-          tasks: ['jshint']
         }
       });
     
+      grunt.registerTask('default', ["uglify"]);
       grunt.loadNpmTasks('grunt-contrib-uglify');
 
-      grunt.registerTask('default', ['jshint']);
     
 };
