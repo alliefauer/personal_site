@@ -4,7 +4,7 @@ export default class About extends Component {
 
     render() {
         return (
-            <div className="about">
+            <div className="about" id="about">
                 <div className="row content">
                     <div className="col-md-4">
                         <img alt="allie" src="images/allie.jpg" />

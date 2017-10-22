@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Nav, NavItem } from 'react-bootstrap'
 import $ from 'jquery'
 import MenuBars from './MenuBars'
+import Scrollchor from 'react-scrollchor';
 
 export default class WebNavbar extends Component {
     constructor(props) {
@@ -113,9 +114,9 @@ export default class WebNavbar extends Component {
                                 </a>
                             </div>
                             <Nav className="nav navbar-nav navbar-right" >
-                                <NavItem id="home" eventKey={1} onClick={this.homeScroll} >HOME</NavItem>
-                                <NavItem id="about" eventKey={2}>ABOUT</NavItem>
-                                <NavItem id="projects" eventKey={3}>PROJECTS</NavItem>
+                                <NavItem id="nav-home" eventKey={1} href="/#">HOME</NavItem>
+                                <NavItem id="nav-about" eventKey={2} href="/#about">ABOUT</NavItem>
+                                <NavItem id="nav-projects" eventKey={3} href="/#projects">PROJECTS</NavItem>
                             </Nav>
                         </div>
                     </Nav>

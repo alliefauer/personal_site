@@ -253,7 +253,7 @@ export default class Projects extends Component {
     render() {
         
         return (
-            <div className="projects">
+            <div className="projects" id="projects">
                 <p>Filter by Category:</p>
                 <button className={this.state.graphicDesignStyle} onClick={this.filterGraphicDesign}>Graphic Design</button>
                 <button className={this.state.programmingStyle} onClick={this.filterProgramming}>Programming</button>

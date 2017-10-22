@@ -192,7 +192,82 @@
 
 /* Two Column */
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:700px) and (max-width:1050px) {
+
+.logo {
+    margin: 10px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.name {
+    font-size: 20px;
+    padding-top: 15px;
+    left: 75px;
+}
+
+.bars {
+    top: 30px;
+    right: 30px;
+}
+
+.bars:nth-child(2) {
+    top:33px;
+ }
+ 
+ .bars:nth-child(3) {
+    top: 40px;
+ }
+ 
+ .bars:nth-child(4) {
+    top:43px;
+ }
+ 
+ .bars:nth-child(5) {
+    top: 50px;
+ }
+
+ .navLogo {
+    margin: 10px;
+}
+
+.navLogo img {
+    width: 60px; 
+}
+
+.navName {
+    font-size: 20px;
+    padding-top: 15px;
+    left: 75px;
+}
+
+.jumbotron img {
+    width: 100%;
+    position: relative;
+    top: -70px !important;
+    transform: translate(-50%, 0%);
+}
+
+.jumbotronInfoWrapper {
+    top: 430px;
+}
+
+.mobile {
+    display: none;
+}
+
+.mainContent {
+    position: relative !important;
+    margin-top: -100px;
+}
+
+.about img {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
    
 }
 

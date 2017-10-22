@@ -8,6 +8,7 @@
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10",
+    "react-scrollchor": "^4.0.0",
     "react-transition-group": "^1.2.0"
   },
   "scripts": {

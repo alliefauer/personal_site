@@ -41,9 +41,9 @@ export default class MobileNavbar extends Component {
                                     <MenuBars color="black" />
                                 </a>
                                 <Nav className="nav navbar-nav navbar-right" >
-                                    <NavItem eventKey={1} href="/">HOME</NavItem>
-                                    <NavItem eventKey={2} href="/">ABOUT</NavItem>
-                                    <NavItem eventKey={3} href="/">PROJECTS</NavItem>
+                                <NavItem id="nav-home" eventKey={1} href="/#">HOME</NavItem>
+                                <NavItem id="nav-about" eventKey={2} href="/#about">ABOUT</NavItem>
+                                <NavItem id="nav-projects" eventKey={3} href="/#projects">PROJECTS</NavItem>
                                 </Nav>
                             </div>
                         </Nav>
