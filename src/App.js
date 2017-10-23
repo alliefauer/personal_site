@@ -4,6 +4,7 @@ import NavbarMain from './components/NavbarMain'
 import Jumbotron from './components/Jumbotron'
 import About from './components/About'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 import { jumbotronPhotos } from './data/jumbotronPhotos'
 
 
@@ -33,6 +34,7 @@ export default class App extends Component {
           <About />
           <Projects />
         </div>
+        <Footer />
       </div>
     );
   }
