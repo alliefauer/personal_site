@@ -323,17 +323,15 @@ html, body {
 }
 
 .portfolio {
-   padding: 0% .4% 0% .4% !important;
+   padding: 0px 4px 0px 4px !important;
    margin-top: 4px !important;
    margin-bottom: 0px !important;
    margin-left: 0px !important;
    margin-right: 0px !important;
 }
 
-
 .portfolioWrapper {
    width: 100%;
-   height: relative;
    color: grey;
    z-index: 300;
    overflow: hidden;
@@ -405,6 +403,10 @@ html, body {
    width: 101.6%;
 }
 
+.clear {
+    clear: left;
+}
+
 
 .projectBar {
       background-color: grey;
@@ -417,7 +419,6 @@ html, body {
 .projectImg {
     position: relative;
     padding: 0;
-    /* flex: 1;  */
 }
 
 .projectImg img {
@@ -484,7 +485,7 @@ flex: 1;
 }
 
 .row {
-    width: 99%;
+    width: 101%;
 }
 
 .sidebarSection {

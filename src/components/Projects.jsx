@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Image from './Image'
+import ImageClear from './ImageClear'
 import $ from 'jquery'
 import { portfolioData } from '../data/portfolioData'
 import FontAwesome from 'react-fontawesome'
@@ -77,9 +78,27 @@ export default class Projects extends Component {
             portfolioCountdown--
         }
 
+        let tallImgClear = (item) => {
+            components.push(
+                <ImageClear image={`images/${item.name}tall.jpg`} size={3} url={item.url} title={item.title} tag={item.tag} />
+            )
+            colCount += 3
+            imagesInRow++
+            portfolioCountdown--
+        }
+
         let wideImg = (item) => {
             components.push(
                 <Image image={`images/${item.name}wide.jpg`} size={6} url={item.url} title={item.title} tag={item.tag} />
+            )
+            colCount += 6
+            imagesInRow++
+            portfolioCountdown--
+        }
+
+        let wideImgClear = (item) => {
+            components.push(
+                <ImageClear image={`images/${item.name}wide.jpg`} size={6} url={item.url} title={item.title} tag={item.tag} />
             )
             colCount += 6
             imagesInRow++
@@ -90,7 +109,7 @@ export default class Projects extends Component {
             while (portfolioCountdown >= 4 || imagesInRow !== 0) {
                 if (imagesInRow === 0) {
                     let size = tallOrWide()
-                    size === 'tall' ? tallImg(shuffledPortfolio[portfolioCountdown]) : wideImg(shuffledPortfolio[portfolioCountdown])
+                    size === 'tall' ? tallImgClear(shuffledPortfolio[portfolioCountdown]) : wideImgClear(shuffledPortfolio[portfolioCountdown])
                     chooseImage(arr)
                 } else if (imagesInRow === 1) {
                     if (colCount === 3) {
@@ -117,16 +136,16 @@ export default class Projects extends Component {
                 imagesInRow = 0
                 chooseImage(arr)
                 if (portfolioCountdown === 3) {
+                    wideImgClear(shuffledPortfolio[portfolioCountdown])
                     wideImg(shuffledPortfolio[portfolioCountdown])
-                    wideImg(shuffledPortfolio[portfolioCountdown])
-                    wideImg(shuffledPortfolio[portfolioCountdown])
+                    wideImgClear(shuffledPortfolio[portfolioCountdown])
                     wideImg(shuffledPortfolio[portfolioCountdown])
                 } else if (portfolioCountdown === 2) {
-                    tallImg(shuffledPortfolio[portfolioCountdown])
+                    tallImgClear(shuffledPortfolio[portfolioCountdown])
                     wideImg(shuffledPortfolio[portfolioCountdown])
                     tallImg(shuffledPortfolio[portfolioCountdown])
                 } else if (portfolioCountdown === 1) {
-                    wideImg(shuffledPortfolio[portfolioCountdown])
+                    wideImgClear(shuffledPortfolio[portfolioCountdown])
                     wideImg(shuffledPortfolio[portfolioCountdown])
                 }
             }
